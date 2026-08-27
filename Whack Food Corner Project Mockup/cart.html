@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Cart | Whack Food Corner</title>
+  <meta name="description" content="Review your food order cart, apply promo codes, and proceed to checkout.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- TOP ANNOUNCEMENT BAR -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="top-bar-text">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+        <span>Order Online Now – No Delivery Fee on All Orders!</span>
+      </div>
+      <a href="account.html" class="top-bar-user">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        <span>My Account</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- HEADER NAVIGATION -->
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a href="index.html" class="brand-logo">
+        <div class="logo-badge">W</div>
+        <div class="logo-text">
+          <span class="logo-title">Whack Food</span>
+          <span class="logo-subtitle">Corner</span>
+        </div>
+      </a>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="menu.html" class="nav-link">Menu</a></li>
+          <li><a href="order.html" class="nav-link">Order Online</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="cart.html" class="cart-trigger active" aria-label="Shopping Cart">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+          <span class="cart-badge">2</span>
+        </a>
+        <a href="order.html" class="btn-primary">Order Online</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- CART MAIN SECTION -->
+  <main class="cart-grid container">
+    <!-- LEFT: ITEMS LIST & PROMO -->
+    <div class="cart-card-main reveal-on-scroll">
+      <h1 style="font-family:var(--font-heading); font-size:1.8rem; font-weight:800; margin-bottom:24px;">My Cart</h1>
+
+      <div class="cart-items-container">
+        <!-- Cart Item 1 -->
+        <div class="cart-table-row">
+          <img src="assets/coke-thumb.png" alt="Refreshing Coke" class="cart-item-thumb">
+          <div>
+            <h4 style="font-family:var(--font-heading); font-weight:700; font-size:1.05rem;">Refreshing Coke</h4>
+            <span style="font-size:0.85rem; color:var(--color-text-muted);">RM 4.30 each</span>
+          </div>
+          <div class="qty-control">
+            <button class="qty-btn">-</button>
+            <input type="text" class="qty-input" value="1" readonly>
+            <button class="qty-btn">+</button>
+          </div>
+          <span style="font-family:var(--font-heading); font-weight:800; font-size:1.1rem; color:var(--color-primary-red);">RM 4.30</span>
+          <button style="color:var(--color-text-light); text-align:right;" title="Remove Item">&times;</button>
+        </div>
+
+        <!-- Cart Item 2 -->
+        <div class="cart-table-row">
+          <img src="assets/burger-thumb.png" alt="Double Burger" class="cart-item-thumb">
+          <div>
+            <h4 style="font-family:var(--font-heading); font-weight:700; font-size:1.05rem;">Double Burger</h4>
+            <span style="font-size:0.85rem; color:var(--color-text-muted);">RM 14.60 each</span>
+          </div>
+          <div class="qty-control">
+            <button class="qty-btn">-</button>
+            <input type="text" class="qty-input" value="1" readonly>
+            <button class="qty-btn">+</button>
+          </div>
+          <span style="font-family:var(--font-heading); font-weight:800; font-size:1.1rem; color:var(--color-primary-red);">RM 14.60</span>
+          <button style="color:var(--color-text-light); text-align:right;" title="Remove Item">&times;</button>
+        </div>
+      </div>
+
+      <!-- PROMO & NOTE FIELDS -->
+      <div style="margin-top: 32px; display: flex; flex-direction: column; gap: 16px;">
+        <div style="display:flex; gap:12px; max-width:400px;">
+          <input type="text" class="form-input" placeholder="Enter promo code" style="height:44px;">
+          <button class="btn-secondary" style="height:44px; padding:0 20px;">Apply</button>
+        </div>
+        <div>
+          <label class="form-label">Special Order Note (Optional)</label>
+          <textarea class="form-input" style="height:80px; padding:12px; resize:none;" placeholder="E.g., No onions, extra ice for drink..."></textarea>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT: ORDER SUMMARY -->
+    <div>
+      <div class="order-summary-card reveal-on-scroll">
+        <h2 class="summary-title">Order Summary</h2>
+
+        <div class="summary-row">
+          <span>Subtotal</span>
+          <span style="font-weight:700;">RM 18.90</span>
+        </div>
+        <div class="summary-row">
+          <span>Pickup / Delivery</span>
+          <span style="font-weight:700; color:var(--color-success);">FREE</span>
+        </div>
+        <div class="summary-row">
+          <span>Taxes (Included)</span>
+          <span>RM 0.00</span>
+        </div>
+
+        <div class="summary-total-row">
+          <span>Total</span>
+          <span>RM 18.90</span>
+        </div>
+
+        <a href="checkout.html" class="btn-primary" style="width:100%; height:52px; font-size:1.05rem;">PROCEED TO CHECKOUT</a>
+
+        <div style="text-align:center; margin-top:16px; font-size:0.82rem; color:var(--color-text-muted); display:flex; align-items:center; justify-center; gap:6px;">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          <span>🔒 256-Bit SSL Secure Checkout</span>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- FLOATING CHAT WIDGET -->
+  <div class="floating-chat-container">
+    <div class="chat-window-modal">
+      <div class="chat-modal-header">
+        <div style="display:flex; align-items:center; gap:8px;">
+          <div style="width:8px; height:8px; background:#2E7D32; border-radius:50%;"></div>
+          <span style="font-weight:700; font-size:0.9rem;">Whack Live Support</span>
+        </div>
+        <button class="chat-close-btn" style="color:#fff; font-size:1.2rem;">&times;</button>
+      </div>
+      <div class="chat-modal-body">
+        <div class="chat-msg chat-msg-bot">
+          Need help modifying items in your cart? Chat with us!
+        </div>
+      </div>
+      <div class="chat-modal-footer">
+        <input type="text" class="chat-input" placeholder="Type your message...">
+        <button class="btn-primary chat-send-btn" style="height:38px; padding:0 14px; border-radius:9999px;">Send</button>
+      </div>
+    </div>
+    <button class="chat-trigger-btn">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+      <span>Let's Chat!</span>
+    </button>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col-brand">
+          <a href="index.html" class="brand-logo">
+            <div class="logo-badge">W</div>
+            <div class="logo-text">
+              <span class="logo-title">Whack Food</span>
+              <span class="logo-subtitle">Corner</span>
+            </div>
+          </a>
+          <p class="footer-brand-desc">The real deal of fast food meals. Freshly prepared burgers, crispy chicken, and ice-cold drinks served daily with passion.</p>
+        </div>
+        <div>
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html" class="footer-link">Home</a></li>
+            <li><a href="menu.html" class="footer-link">Our Menu</a></li>
+            <li><a href="order.html" class="footer-link">Order Online</a></li>
+            <li><a href="about.html" class="footer-link">About Us</a></li>
+            <li><a href="contact.html" class="footer-link">Contact & Location</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-col-title">Contact & Location</h4>
+          <div class="footer-info-item"><span>03-5343 5343</span></div>
+          <div class="footer-info-item"><span>whackfoodcorner@gmail.com</span></div>
+          <div class="footer-info-item"><span>8, Jalan 51a/223, Seksyen 51a, PJ, Malaysia</span></div>
+        </div>
+        <div>
+          <h4 class="footer-col-title">Opening Hours</h4>
+          <p style="font-size: 0.9rem; opacity: 0.85;">Mon–Fri: 10am–10pm<br>Sat–Sun: 9am–11pm</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>© 2035 Whack Food Corner. All rights reserved.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
