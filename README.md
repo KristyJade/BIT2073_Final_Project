@@ -8,6 +8,18 @@ An interactive food delivery website designed around **usability, simplicity, ac
 
 ---
 
+## 🌐 Project Links
+
+### 🚀 Live Website
+
+[**Visit Whack Food Corner**](https://whack-food-corner.vercel.app/)
+
+### 💻 GitHub Repository
+
+[**View GitHub Repository**](https://github.com/KristyJade/BIT2073_Final_Project)
+
+---
+
 ## 📌 Project Information
 
 | Information | Details |
@@ -80,95 +92,108 @@ Whack Food Corner is designed for users who prefer a quick, convenient, and unde
 | 🏠 **Home Page** | Introduces Whack Food Corner with menu highlights and ordering actions |
 | 🍔 **Food Browsing** | Browse Burgers, Chicken Delights, and Drinks |
 | 🛒 **Online Ordering** | Select food items and add them directly to an order |
-| ➕ **Cart Management** | Adjust quantities, remove items, apply promo codes, and add notes |
+| ➕ **Cart Management** | Adjust quantities, remove items, apply promo codes, and add special order notes |
 | 💳 **Checkout & Payment** | Review orders and select an available payment method |
 | 📦 **My Orders** | View current and previous orders and their status |
 | 📍 **Track Order** | Monitor the progress of an active order |
 | 🔄 **Reorder** | Conveniently repeat a previous order |
 | 👤 **Account Settings** | Manage personal and account information |
 | 💬 **Customer Support** | Access contact information and customer assistance |
+| ℹ️ **Restaurant Information** | Access operating hours, location details, policies, and contact information |
 
 ---
 
 ## 🔄 User Flow
 
-The website follows a structured ordering journey:
+The website follows a clear and structured ordering journey:
 
 `Home` → `Menu / Order Online` → `Select Food` → `Cart` → `Checkout` → `Order Confirmation` → `My Orders`
 
 ### Ordering Process
 
-1. **Browse Food**  
-   Users access the Menu or Order Online page and explore available food categories.
+**1. Browse Food**
 
-2. **Select Food**  
-   Product images, descriptions, and prices help users select their preferred items.
+Users access the Menu or Order Online page and explore the available food categories.
 
-3. **Add to Order**  
-   Selected products are added to the shopping cart.
+**2. Select Food**
 
-4. **Review Cart**  
-   Users can adjust quantities, remove items, apply promo codes, and add special order notes.
+Product images, descriptions, and prices help users compare available choices and select their preferred items.
 
-5. **Checkout**  
-   Users review customer information, payment options, selected products, and the total amount.
+**3. Add to Order**
 
-6. **Manage Order**  
-   After ordering, users can check their order status, track the order, or reorder previous purchases.
+Selected food items are added to the shopping cart for further review.
+
+**4. Review Cart**
+
+Users can adjust quantities, remove unwanted items, apply promo codes, and provide special order notes.
+
+**5. Checkout**
+
+Users review their customer information, payment method, selected products, and final order total before confirmation.
+
+**6. Manage Order**
+
+After placing an order, users can check its status, track its progress, or reorder previous purchases.
 
 ---
 
 ## 🎨 HCI Design Principles
 
-The project applies four main **Human Computer Interaction principles**.
+The development of Whack Food Corner applies four main **Human Computer Interaction (HCI) principles** to improve the overall user experience.
 
 ### 🧭 Usability
 
-Clear navigation, organized food categories, visible actions, consistent layouts, and a logical ordering process make the website easier to learn and use.
+Clear navigation, organized food categories, visible actions, consistent layouts, and a logical ordering process make the website easier to learn, navigate, and use.
+
+Important actions such as **Order Now**, **View Menu**, **Add to Order**, and **Proceed to Checkout** remain clearly visible throughout the ordering process.
 
 ### 💬 Feedback & Affordance
 
-Clearly labelled buttons such as **Add to Order**, **View Cart**, **Proceed to Checkout**, **Place Order Now**, **Track Order**, and **Reorder** communicate available actions.
+Clearly labelled buttons such as **Add to Order**, **View Cart**, **Proceed to Checkout**, **Place Order Now**, **Track Order**, and **Reorder** communicate the actions available to users.
 
-Cart updates and order status indicators also provide visible feedback after user interactions.
+Cart updates, quantity controls, selected payment methods, and order status indicators also provide visible feedback after user interactions.
 
 ### 🛡️ Error Prevention
 
-Users can review their cart, adjust quantities, remove unwanted items, enter special instructions, select payment methods, and verify the final order before confirmation.
+Users are provided with several opportunities to review and correct their information before completing an order.
+
+The website allows users to **adjust quantities, remove unwanted items, provide special order notes, review customer information, select payment methods, and verify the final order summary** before confirmation.
 
 ### ♿ Accessibility
 
-Clear text hierarchy, descriptive labels, recognizable icons, consistent navigation, and organized information help make the interface easier to understand and operate.
+Clear text hierarchy, descriptive labels, recognizable icons, consistent navigation, readable product information, and organized supporting content help make the interface easier to understand and operate.
 
 ---
 
 ## 🖥️ Main Interface Screens
 
-The interactive prototype includes:
+The interactive prototype contains several interfaces that work together to support the complete food ordering experience.
 
-- 🏠 **Home**
-- 📖 **Menu**
-- 🍔 **Order Online**
-- 🛒 **Cart**
-- 💳 **Checkout**
-- 📦 **My Orders**
-- 👤 **Account Settings**
-- ℹ️ **About**
-- 📞 **Contact**
+| Screen | Purpose |
+|---|---|
+| 🏠 **Home** | Introduces Whack Food Corner and provides direct access to ordering functions |
+| 📖 **Menu** | Displays available food and drinks with descriptions and prices |
+| 🍔 **Order Online** | Allows users to browse categories and add food items to their order |
+| 🛒 **Cart** | Allows users to review and modify selected items before checkout |
+| 💳 **Checkout** | Provides customer details, payment options, and final order confirmation |
+| 📦 **My Orders** | Displays order history, current status, tracking, and reorder functions |
+| 👤 **Account Settings** | Allows users to manage personal and account information |
+| ℹ️ **About** | Provides information about Whack Food Corner and its concept |
+| 📞 **Contact** | Provides contact details, operating hours, location, and customer assistance |
 
-Together, these screens support the complete user journey from **food discovery to post-order management**.
+Together, these screens support the complete user journey from **initial food discovery to checkout and post-order management**.
 
 ---
 
 ## 💳 Payment Options
 
-The checkout interface provides the following payment options:
+The checkout interface provides several payment options:
 
 - 💳 **Credit / Debit Card**
 - 🏦 **Online Banking (FPX)**
 - 💵 **Pay at Counter**
 
-Users can review their selected payment method and final order summary before confirming an order.
+Users can review their selected payment method together with the final order summary before confirming an order.
 
 ---
 
@@ -177,9 +202,9 @@ Users can review their selected payment method and final order summary before co
 | Technology | Purpose |
 |---|---|
 | `HTML` | Website structure and content |
-| `CSS` | Interface styling and visual design |
+| `CSS` | Interface styling and visual consistency |
 | `JavaScript` | Interactive website functionality |
-| `Wix` | Website implementation and management |
+| `Wix` | Final website implementation and management |
 | `GitHub` | Source code and version management |
 | `Vercel` | Website deployment and hosting |
 
@@ -187,40 +212,42 @@ Users can review their selected payment method and final order summary before co
 
 ## 🆚 Comparison & Evaluation
 
-As part of the project, **Whack Food Corner was compared with foodpanda** to evaluate important food delivery interactions.
+As part of the HCI evaluation, **Whack Food Corner was compared with foodpanda** to examine important interactions commonly found in food delivery applications.
 
 The comparison focused on:
 
-- 🍽️ Menu Browsing & Search
-- 🛒 Customization & Ordering
-- 💳 Checkout & Payment
-- 📍 Order Tracking & Updates
+- 🍽️ **Menu Browsing & Search**
+- 🛒 **Customization & Ordering**
+- 💳 **Checkout & Payment**
+- 📍 **Order Tracking & Updates**
 
-The evaluation showed that Whack Food Corner provides a **simple and structured ordering experience**, while also identifying opportunities for more advanced features in future development.
+The comparison showed that both platforms provide important functions for browsing food, managing selections, completing checkout, and monitoring orders.
+
+Whack Food Corner focuses on providing a **simple and structured ordering experience**, while the comparison also identified opportunities for introducing more advanced functionality in future development.
 
 ---
 
 ## 🚀 Future Improvements
 
+Several improvements could further expand the functionality and user experience of Whack Food Corner.
+
 | Improvement | Description |
 |---|---|
-| 🗺️ **Real-Time Map Tracking** | Add live location tracking and detailed order progress |
-| 💰 **Expanded Payment Integration** | Support more digital payment services and local e-wallets |
+| 🗺️ **Real-Time Map Tracking** | Enhance order tracking with live location information and detailed progress updates |
+| 💰 **Expanded Payment Integration** | Support additional digital payment services and local e-wallets |
 | 🥗 **Nutritional Information** | Display calorie and nutritional information for food items |
-| 🔍 **Advanced Search & Filters** | Help users locate specific food items more efficiently |
-| 🎁 **Personalized Promotions** | Provide loyalty rewards, discounts, and personalized offers |
+| 🔍 **Advanced Search & Filters** | Help users locate specific food items more quickly and efficiently |
+| 🎁 **Personalized Promotions** | Provide loyalty rewards, targeted discounts, and promotional offers |
 
 ---
 
-## 🌐 Project Links
+## 📌 Project Summary
 
-### Live Website
+Whack Food Corner demonstrates how **user-centered design, interactive web development, and HCI principles** can be combined to create a practical food ordering platform.
 
-🔗 **https://whack-food-corner.vercel.app/**
+The project supports users throughout the complete ordering process, from **browsing and selecting food to cart management, checkout, order confirmation, tracking, and post-order management**.
 
-### GitHub Repository
-
-🔗 **https://github.com/KristyJade/BIT2073_Final_Project**
+Through clear navigation, visible system responses, error prevention features, and accessible interface elements, Whack Food Corner aims to provide an **efficient, understandable, and convenient digital ordering experience**.
 
 ---
 
@@ -228,6 +255,4 @@ The evaluation showed that Whack Food Corner provides a **simple and structured 
 
 ### *Making every click part of a better food ordering experience.*
 
-Whack Food Corner demonstrates how **user-centered design, interactive web development, and HCI principles** can be combined to create a practical and effective food ordering platform.
-
-The project provides users with an **efficient, understandable, and convenient digital ordering experience** from initial food exploration through checkout and post-order management.
+**Designed and developed as part of the BIT2073 Human Computer Interaction Final Project.**
