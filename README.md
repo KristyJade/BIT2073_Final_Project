@@ -10,13 +10,12 @@ An interactive food delivery website designed around **usability, simplicity, ac
 
 ## 🌐 Project Links
 
-### 🚀 Live Website
+### Live Website 
+🔗 [**Visit Whack Food Corner**](https://whack-food-corner.vercel.app/)
 
-[**Visit Whack Food Corner**](https://whack-food-corner.vercel.app/)
+### GitHub Repository
 
-### 💻 GitHub Repository
-
-[**View GitHub Repository**](https://github.com/KristyJade/BIT2073_Final_Project)
+🔗 [**View GitHub Repository**](https://github.com/KristyJade/BIT2073_Final_Project)
 
 ---
 
