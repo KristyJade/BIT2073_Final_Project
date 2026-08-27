@@ -220,7 +220,7 @@ The evaluation showed that Whack Food Corner provides a **simple and structured 
 
 ### GitHub Repository
 
-🔗 **Add GitHub repository link here**
+🔗 **https://github.com/KristyJade/BIT2073_Final_Project**
 
 ---
 
